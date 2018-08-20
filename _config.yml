@@ -1,0 +1,11 @@
+title: Tom Vincent
+description: Essays on hacking, travel and self-improvement
+safe: true
+permalink: ":title"
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "post"

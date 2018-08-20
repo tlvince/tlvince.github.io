@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.abstract %}{{ page.abstract }}{% else %}{{ site.description }}{% endif %}">
+  <style>
+    body {
+      font: 1.2em/1.62 system-ui, sans-serif;
+      margin: 1em auto;
+      padding: 0 0.62em;
+      max-width: 35em;
+    }
+    pre {
+      overflow: auto;
+    }
+    ol.archive {
+      padding: 0;
+      list-style: none;
+    }
+    nav ul {
+      margin: 0;
+      display: inline-flex;
+      padding: 0;
+      list-style: none;
+    }
+    nav ul li:not(:first-child) {
+      padding-left: 0.4em;
+    }
+    @media print{
+      body{
+        max-width: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  {{ content }}
+  <footer>
+    <hr />
+    <nav>
+      <ul>
+        <li>
+          <a href="/">home</a>
+        </li>
+        <li>
+          <a href="/about">about</a>
+        </li>
+        <li>
+          <a href="/contact">contact</a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>

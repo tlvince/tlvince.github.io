@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<h2>Posts</h2>
+
+<ol class="archive">
+  {% for post in site.posts %}
+  <li>
+    <code>
+      <time
+        datetime="{{ post.date | date_to_xmlschema }}"
+      >{{ post.date | date: "%Y-%m-%d" }}</time>
+    </code>
+    <a
+      href="{{ post.url }}"
+      title="{{ post.abstract }}"
+    >{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ol>
