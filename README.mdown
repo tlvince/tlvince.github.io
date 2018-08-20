@@ -1,7 +1,0 @@
-# journal
-
-Journal entries for <http://tlvince.com>.
-
-## Author
-
-© 2007-2013 Tom Vincent <http://tlvince.com/contact>

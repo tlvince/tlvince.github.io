@@ -1,5 +1,6 @@
 title: Tom Vincent
 description: Essays on hacking, travel and self-improvement
+url: "https://tlvince.com"
 safe: true
 permalink: ":title"
 
@@ -9,3 +10,8 @@ defaults:
       path: ""
     values:
       layout: "post"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-relative-links
