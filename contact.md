@@ -6,10 +6,7 @@ layout: default
 
 # Contact
 
-If you'd like to contact me, PGP encrypted email is best. Here is my public key:
-**[tlvince.asc][]**. Its fingerprint is:
-
-    6234 A657 E1D2 EB06 32AF  3E62 AB18 4CDB E6AE ACDE
+If you'd like to contact me, you can always email me on: <mailto:hello@tlvince.com>
 
 You my also find me on:
 
@@ -20,7 +17,10 @@ You my also find me on:
 * [LinkedIn][]
 * [Flattr][]
 
-If none of the above suit, you can always email me on: <mailto:hello@tlvince.com>
+I don't really use PGP encrypted email anymore, but if you insist, here is my public key:
+**[tlvince.asc][]**. Its fingerprint is:
+
+    6234 A657 E1D2 EB06 32AF  3E62 AB18 4CDB E6AE ACDE
 
   [LinkedIn]: https://www.linkedin.com/in/tlvince "tlvince's profile on LinkedIn"
   [Twitter]: https://twitter.com/tlvince "tlvince's profile on Twitter"
