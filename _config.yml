@@ -11,6 +11,12 @@ defaults:
     values:
       layout: "post"
 
+exclude:
+  - scripts
+  - node_modules
+  - package.json
+  - package-lock.json
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap

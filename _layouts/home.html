@@ -4,6 +4,23 @@ layout: default
 
 {{ content }}
 
+<h2>Talks</h2>
+<ol class="archive">
+  {% for talk in site.data.talks reversed %}
+  <li>
+    <code>
+      <time
+        datetime="{{ talk.date | date_to_xmlschema }}"
+      >{{ talk.date | date: "%Y-%m-%d" }}</time>
+    </code>
+    <a
+      href="{{ talk.url }}"
+      target="_blank"
+    >{{ talk.title }}</a>
+  </li>
+  {% endfor %}
+</ol>
+
 <h2>Posts</h2>
 
 <ol class="archive">
