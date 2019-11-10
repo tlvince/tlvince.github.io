@@ -1,52 +1,78 @@
 <!DOCTYPE html>
 <html lang="en-GB">
-<head>
-  <meta charset="utf-8">
-  <title>{% if page.title and page.title != site.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.abstract %}{{ page.abstract }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      font: 1.2em/1.62 system-ui, sans-serif;
-      margin: 1em auto;
-      padding: 0 0.62em;
-      max-width: 35em;
-    }
-    pre {
-      overflow: auto;
-    }
-    ol.archive {
-      padding: 0;
-      list-style: none;
-    }
-    nav ul {
-      margin: 0;
-      display: inline-flex;
-      padding: 0;
-      list-style: none;
-    }
-    nav ul li:not(:first-child) {
-      padding-left: 0.4em;
-    }
-    @media print{
-      body{
-        max-width: none;
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      {% if page.title and page.title != site.title %}{{ page.title }} |
+      {{ site.title }}{% else %}{{ site.title }}{% endif %}
+    </title>
+    <meta
+      name="description"
+      content="{% if page.abstract %}{{ page.abstract }}{% else %}{{
+        site.description
+      }}{% endif %}"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font: 1.2em/1.62 system-ui, sans-serif;
+        margin: 1em auto;
+        padding: 0 0.62em;
+        max-width: 35em;
       }
-    }
-  </style>
-</head>
+      pre {
+        overflow: auto;
+      }
+      ol.archive {
+        padding: 0;
+        list-style: none;
+      }
+      nav ul {
+        margin: 0;
+        display: inline-flex;
+        padding: 0;
+        list-style: none;
+      }
+      nav ul li:not(:first-child) {
+        padding-left: 0.4em;
+      }
+      @media print {
+        body {
+          max-width: none;
+        }
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          color: #f9f9fa;
+          background-color: #2a2a2e;
+        }
+        a {
+          color: #45a1ff;
+        }
+        a:hover {
+          color: #0a84ff;
+        }
+      }
+    </style>
+  </head>
 
-<body>
-  {{ content }}
-  <footer>
-    <hr />
-    <nav>
-      <ul>
-        <li><small><a href="/">home</a></small></li>
-        <li><small><a href="/about">about</a></small></li>
-        <li><small><a href="/contact">contact</a></small></li>
-      </ul>
-    </nav>
-  </footer>
-</body>
+  <body>
+    {{ content }}
+    <footer>
+      <hr />
+      <nav>
+        <ul>
+          <li>
+            <small><a href="/">home</a></small>
+          </li>
+          <li>
+            <small><a href="/about">about</a></small>
+          </li>
+          <li>
+            <small><a href="/contact">contact</a></small>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>
