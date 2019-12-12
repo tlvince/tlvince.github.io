@@ -117,7 +117,7 @@ Latency is also reduced. There are less hops in the chain and the issue of cold 
 
 ## Disadvantages
 
-There are a number drawbacks to consider. Probably most apparent is the fact that you can only integrate with a single service. This limits the approach to simple integrations and rules out complex logic e.g. joins.
+There are however a number drawbacks to consider with this Lambdaless method. Probably most apparent is the fact that you can only integrate with a single service at a time. This limits the approach to simple integrations and rules out complex logic e.g. joins.
 
 Velocity, whilst offering some level of [control flow][vtl-directives] such as `if/else` and loops, as well as AWS's own extensions such as [util functions][], is somewhat of a niche language and introduces its own complexity over using your Lambda runtime language of choice (e.g. JavaScript, Python).
 
