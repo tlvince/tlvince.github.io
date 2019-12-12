@@ -1,6 +1,7 @@
 ---
 title: Lambdaless
 abstract: Serverless architectures without Lambda
+date: 2019-01-01
 ---
 
 Lets assume you need to expose a JSON file behind an API. Using a serverless approach with AWS, you might first reach for an architecture like the following:
@@ -59,7 +60,7 @@ Simple CRUD APIs with DynamoDB are a great fit for Lambdaless. API Gateway's [\$
 
 Request/response templates can be used to convert to/from DynamoDB's [data type descriptors][], for example:
 
-```json
+```vtl
 #set($inputRoot = $input.path('$'))
 {
   "TableName": "my-table",
@@ -135,3 +136,7 @@ It also relies on "low-level" AWS APIs, which are less accessible and often spar
 
 [ex1]: https://aws.amazon.com/blogs/compute/using-amazon-api-gateway-as-a-proxy-for-dynamodb/
 [ex2]: https://medium.com/hackernoon/serverless-and-lambdaless-scalable-crud-data-api-with-aws-api-gateway-and-dynamodb-626161008bb2
+
+**Thanks** to [Callum Vincent][] for reading drafts of this.
+
+[callum vincent]: https://github.com/kahlos
