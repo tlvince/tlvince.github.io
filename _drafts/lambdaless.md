@@ -113,7 +113,6 @@ A simple Lambda may seem innocuous at first, but each function comes with their 
 - configuring instrumentation (e.g. X-Ray)
 
 Removing a Lambda means fewer resources to maintain, test and pay for.
-
 Latency is also reduced. There are less hops in the chain and the issue of cold starts disappears.
 
 ## Disadvantages
