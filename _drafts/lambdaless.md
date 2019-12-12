@@ -38,7 +38,7 @@ Continuing with the S3 example above, create an API Gateway with a GET method an
 [apigs3ireq]: /assets/img/api-gateway-s3-integration-request.png
 [apigs3ireqth]: /assets/img/th/api-gateway-s3-integration-request.png 'API Gateway S3 Integration Request'
 
-Create an IAM role that has a policy that has `s3:GetObject` permission on your `<bucket>/<prefix>` and Trust Relationship that allows API Gateway to assume it and that's it; switch to the test view, click "test" and you should see the contents of your JSON object in the response body:
+Create an IAM role that has a policy that has `s3:GetObject` permission on your `<bucket>/<prefix>` and a Trust Relationship that allows the API Gateway to assume it to be so. Now all you need to do is switch to the test view, click "test" and you should see the contents of your JSON object in the response body:
 
 [![API Gateway S3 Request][apigs3resth]][apigs3res]
 
