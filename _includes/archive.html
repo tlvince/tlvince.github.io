@@ -1,0 +1,10 @@
+<ol class="archive">
+  {% for element in include.elements %}
+  <li>
+    <code>{{ element.date | date_to_string }}</code>
+    <a href="{{ element.url }}" title="{{ element.description | escape }}">{{
+      element.title
+    }}</a>
+  </li>
+  {% endfor %}
+</ol>

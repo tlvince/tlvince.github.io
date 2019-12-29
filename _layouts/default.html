@@ -2,17 +2,14 @@
 <html lang="en-GB">
   <head>
     <meta charset="utf-8" />
-    <title>
-      {% if page.title and page.title != site.title %}{{ page.title }} |
-      {{ site.title }}{% else %}{{ site.title }}{% endif %}
-    </title>
-    <meta
-      name="description"
-      content="{% if page.abstract %}{{ page.abstract }}{% else %}{{
-        site.description
-      }}{% endif %}"
-    />
+    {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="{{ site.title | escape }}"
+      href="{{ '/feed.xml' | relative_url }}"
+    />
     <style>
       body {
         font: 1.2em/1.62 system-ui, sans-serif;
@@ -23,7 +20,7 @@
       pre {
         overflow: auto;
       }
-      ol.archive {
+      .archive {
         padding: 0;
         list-style: none;
       }
