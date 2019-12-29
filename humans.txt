@@ -7,4 +7,4 @@
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3, Node.js, Wintersmith
+    HTML5, CSS3, Jekyll

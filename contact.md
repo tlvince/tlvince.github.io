@@ -1,6 +1,6 @@
 ---
 title: Contact
-abstract: Contact Tom Vincent
+description: Contact Tom Vincent
 layout: default
 ---
 
@@ -10,12 +10,12 @@ If you'd like to contact me, you can always email me on: <mailto:hello@tlvince.c
 
 You my also find me on:
 
-* [Twitter][]
-* [Flickr][] (best viewed on [Fluidr][])
-* [GitHub][] ([ask me anything][ama]!)
-* [Stack Exchange][]
-* [LinkedIn][]
-* [Flattr][]
+- [Twitter][]
+- [Flickr][] (best viewed on [Fluidr][])
+- [GitHub][] ([ask me anything][ama]!)
+- [Stack Exchange][]
+- [LinkedIn][]
+- [Flattr][]
 
 If its sensitive, please contact me via [Keybase][].
 
@@ -24,13 +24,13 @@ I don't really use PGP encrypted email anymore, but if you like, here is my publ
 
     6234 A657 E1D2 EB06 32AF  3E62 AB18 4CDB E6AE ACDE
 
-[LinkedIn]: https://www.linkedin.com/in/tlvince "tlvince's profile on LinkedIn"
-[Twitter]: https://twitter.com/tlvince "tlvince's profile on Twitter"
-[GitHub]: https://github.com/tlvince "tlvince's profile on GitHub"
-[Stack Exchange]: https://stackexchange.com/users/179405?tab=accounts "tlvince's profiles on Stack Exchange"
+[linkedin]: https://www.linkedin.com/in/tlvince "tlvince's profile on LinkedIn"
+[twitter]: https://twitter.com/tlvince "tlvince's profile on Twitter"
+[github]: https://github.com/tlvince "tlvince's profile on GitHub"
+[stack exchange]: https://stackexchange.com/users/179405?tab=accounts "tlvince's profiles on Stack Exchange"
 [tlvince.asc]: /assets/txt/tlvince.asc "tlvince's PGP public key"
-[Flickr]: https://secure.flickr.com/photos/tlvince "tlvince's profile on Flickr"
-[Fluidr]: http://www.fluidr.com/photos/tlvince "tlvince's profile on Fluidr"
-[Flattr]: https://flattr.com/profile/tlvince "tlvince's profile on Flattr"
+[flickr]: https://secure.flickr.com/photos/tlvince "tlvince's profile on Flickr"
+[fluidr]: http://www.fluidr.com/photos/tlvince "tlvince's profile on Fluidr"
+[flattr]: https://flattr.com/profile/tlvince "tlvince's profile on Flattr"
 [ama]: https://github.com/tlvince/feedback
 [keybase]: https://keybase.io/tlvince

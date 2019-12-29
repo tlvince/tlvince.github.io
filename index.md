@@ -1,15 +1,13 @@
 ---
-layout: home
+layout: default
 ---
 
 # Tom Vincent
 
-Contract Full Stack Developer
+I'm a senior full stack developer, currently contracting at [ClearScore](https://www.clearscore.com/) in London.
 
-- [Email][]
-- [GitHub][]
-- [LinkedIn][]
+Read more [about]({% link about.md %}) me and feel free to [contact]({% link contact.md %}) me at any time.
 
-[email]: mailto:tom@tvincent.uk
-[github]: https://github.com/tlvince
-[linkedin]: https://linkedin.com/in/tlvince
+## Posts
+
+{% include archive.html elements=site.posts %}
