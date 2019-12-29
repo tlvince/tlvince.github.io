@@ -1,7 +1,7 @@
 ---
 title: prowler an inotify based home directory cleaner
 date: 2010-07-15
-abstract: A Linux shell script to keep your home directory clean
+description: A Linux shell script to keep your home directory clean
 ---
 
 [prowler][] is a shell script that automatically deletes files and directories

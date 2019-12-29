@@ -1,7 +1,7 @@
 ---
 title: Static commenting
 date: 2012-10-19 16:52:22 +0800
-abstract: A review of static commenting solutions for static website generators
+description: A review of static commenting solutions for static website generators
 ---
 
 Static website generators typically rely on third-parties to provide commenting

@@ -1,7 +1,7 @@
 ---
 title: Lightweight adblock with a hosts file
 date: 2010-08-02
-abstract: An alternative method of ad blocking using a hosts file
+description: An alternative method of ad blocking using a hosts file
 ---
 
 Does your browser's memory usage sky rocket? Are you using an Adblock extension?

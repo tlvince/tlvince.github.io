@@ -1,7 +1,7 @@
 ---
 title: Fixing Java apps within TWMs using wmname
 date: 2009-03-18
-abstract: How to fix Java "grey window" issues using wmname
+description: How to fix Java "grey window" issues using wmname
 ---
 
 If you've ever had to use a Java app within a tiling window manager like *dwm*,

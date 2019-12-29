@@ -1,7 +1,7 @@
 ---
 title: Switching to Ubuntu Linux
 date: 2007-09-26
-abstract: A log of my Windows to Linux migration
+description: A log of my Windows to Linux migration
 ---
 
 If you haven't heard of Ubuntu yet, it's a flavour of Linux that's based on

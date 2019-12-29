@@ -1,7 +1,7 @@
 ---
 title: Periodical
 date: 2012-09-06
-abstract: A Kindle periodical eBook generator
+description: A Kindle periodical eBook generator
 ---
 
 Want to read online content on your Kindle without all the clutter? Looking for

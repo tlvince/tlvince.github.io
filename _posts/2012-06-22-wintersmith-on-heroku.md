@@ -1,7 +1,7 @@
 ---
 title: Wintersmith on Heroku
 date: 2012-06-22
-abstract: Efficiently serving generated static files using Connect
+description: Efficiently serving generated static files using Connect
 ---
 
 [Wintersmith][] is a static site generator written in Node. This post describes

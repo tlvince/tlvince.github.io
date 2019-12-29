@@ -1,7 +1,7 @@
 ---
 title: Xbox Modding
 date: 2007-07-08
-abstract: My exprience of Xbox modding
+description: My exprience of Xbox modding
 ---
 
 I've decided to end my turn in the Xbox modding scene. After 3 Xbox's,

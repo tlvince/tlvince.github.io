@@ -1,7 +1,7 @@
 ---
 title: Vim respect XDG
 date: 2011-02-03
-abstract: Better organisation using XDG
+description: Better organisation using XDG
 ---
 
 The XDG Base Directory Specification outlines a consistent standard for

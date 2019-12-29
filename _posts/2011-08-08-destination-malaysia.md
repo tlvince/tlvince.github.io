@@ -1,7 +1,7 @@
 ---
 title: Destination Malaysia
 date: 2011-08-08
-abstract: Travellers small talk and thoughts on fear
+description: Travellers small talk and thoughts on fear
 ---
 
 Despite some problems early on, I write here, just beginning the first leg of

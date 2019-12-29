@@ -1,17 +1,40 @@
 title: Tom Vincent
-description: Essays on hacking, travel and self-improvement
-url: "https://tlvince.com"
+description: Contract Full Stack Developer
+url: 'https://tlvince.com'
 safe: true
-permalink: ":title"
+permalink: ':title'
 
 defaults:
-  -
-    scope:
-      path: ""
+  - scope:
+      path: ''
     values:
-      layout: "post"
+      layout: 'post'
+      values:
+        image: /apple-touch-icon-precomposed.png
+
+# jekyll-seo-tag
+lang: en_GB
+logo: /apple-touch-icon-precomposed.png
+author: Tom Vincent
+twitter:
+  card: summary
+  username: tlvince
+social:
+  name: Tom Vincent
+  links:
+    - https://twitter.com/tlvince
+    - https://www.linkedin.com/in/tlvince
+    - https://github.com/tlvince
+    - https://keybase.io/tlvince
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-relative-links
+
+whitelist:
+  - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-relative-links

@@ -1,7 +1,7 @@
 ---
 title: Converting Eqium Presets To UNIQUEL-IZER
 date: 2008-02-27
-abstract: Hacking Eqium XML files
+description: Hacking Eqium XML files
 ---
 
 Since [Elemental Audio][1] have changed hands to [Roger Nichols Digital, Inc][2],

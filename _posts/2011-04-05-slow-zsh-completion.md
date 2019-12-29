@@ -1,7 +1,7 @@
 ---
 title: Fixing slow Zsh command completion
 date: 2011-04-05
-abstract: How to disable hostname completion in Zsh
+description: How to disable hostname completion in Zsh
 ---
 
 Zsh's command completion for some commands is unacceptably slow. After a bit of

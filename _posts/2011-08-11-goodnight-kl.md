@@ -1,7 +1,7 @@
 ---
 title: Goodnight KL
 date: 2011-08-11
-abstract: Kuala Lumpur in brief
+description: Kuala Lumpur in brief
 ---
 
 I leave KL unable to make up my mind about it. On the one hand, it has a very

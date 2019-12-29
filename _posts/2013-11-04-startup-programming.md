@@ -1,7 +1,7 @@
 ---
 title: Startup programming
 date: 2013-11-04 23:30:00 +0000
-abstract: Career advice for programmers, from a programmer
+description: Career advice for programmers, from a programmer
 ---
 
 Earlier in the year, I asked for advice on how to start a programming career in

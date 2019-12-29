@@ -1,6 +1,6 @@
 ---
 title: Post-PhotoRec Strategies
-abstract: An overview of approaches to sort files recovered by PhotoRec
+description: An overview of approaches to sort files recovered by PhotoRec
 date: 2012-12-20
 ---
 

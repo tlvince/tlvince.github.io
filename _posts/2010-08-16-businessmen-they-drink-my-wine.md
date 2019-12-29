@@ -1,7 +1,7 @@
 ---
 title: Businessmen they drink my wine
 date: 2010-08-16
-abstract: Day three in Hong Kong
+description: Day three in Hong Kong
 ---
 
 First day of work today and it's been full of confusion and anxiety, but that's

@@ -1,7 +1,7 @@
 ---
 title: Tiling Window Managers reprise
 date: 2009-03-13
-abstract: Revisiting tiling window managers to improve your workflow
+description: Revisiting tiling window managers to improve your workflow
 ---
 
 [Previously][], I wrote about a newcomer's experience with so-called Tiling

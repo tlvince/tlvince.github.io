@@ -1,6 +1,6 @@
 ---
 title: Lambdaless
-abstract: Serverless architectures without Lambda
+description: Serverless architectures without Lambda
 date: 2019-01-01
 ---
 

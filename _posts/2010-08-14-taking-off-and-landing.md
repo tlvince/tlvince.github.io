@@ -1,7 +1,7 @@
 ---
 title: Taking off and landing
 date: 2010-08-14
-abstract: A few scribbles before, during and after the flight to Hong Kong
+description: A few scribbles before, during and after the flight to Hong Kong
 ---
 
 I start to write as I'm waiting for take off. The plane is huge: the wing spans

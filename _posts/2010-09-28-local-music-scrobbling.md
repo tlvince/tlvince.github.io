@@ -1,7 +1,7 @@
 ---
 title: Local music scrobbling with mpd
 date: 2010-09-28
-abstract: Logging plays from mpd to a file using mpdscribble
+description: Logging plays from mpd to a file using mpdscribble
 ---
 
 A [feature request][] recently [implemented][] in mpdscribble allows plays from

@@ -1,7 +1,7 @@
 ---
 title: Composable Yeoman Generators
 date: 2014-08-08 12:38:49 +0100
-abstract: Programmatically call generators for reuse
+description: Programmatically call generators for reuse
 ---
 
 Yeoman generator [v0.17.0][] included a useful new feature dubbed
