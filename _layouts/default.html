@@ -20,7 +20,7 @@
       pre {
         overflow: auto;
       }
-      .archive {
+      ol.archive {
         padding: 0;
         list-style: none;
       }
@@ -39,6 +39,13 @@
       @media (max-width: 35em) {
         img {
           max-width: 100%;
+        }
+        ol.archive {
+          list-style: disc;
+          padding-left: 1em;
+        }
+        ol.archive code {
+          display: none;
         }
       }
       @media print {
