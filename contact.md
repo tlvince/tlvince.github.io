@@ -8,7 +8,7 @@ layout: default
 
 If you'd like to contact me, you can always email me on: <mailto:hello@tlvince.com>
 
-You my also find me on:
+You may also find me on:
 
 - [Twitter][]
 - [Flickr][] (best viewed on [Fluidr][])
