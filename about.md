@@ -8,17 +8,11 @@ layout: default
 
 **Hi**! I'm Tom.
 
-Since 2013, I have operated as a contract senior full stack developer,
-completing assignments around the world from the Hong Kong-based Fable
-Foundation, West African-based public healthcare initiatives eHealth Africa and
-Field Intelligence, and most recently returning to home to London with fintech
-leaders ClearScore.
-
-I'm currently specialising in serverless architectures with Node.js to deliver
-highly scalable, event-driven applications. I've previous experience in
-investment banking, music, audio production and photography.
-
-Whilst this is primarily a technical blog, I also write on travelling, the
-ever-inspiring open source community and lessons on self-improvement.
+Product-orientated contract senior full stack developer. 12 years in software
+engineering, 6 years senior and mentoring. Currently specialising in serverless
+architectures with Node.js and AWS to deliver highly scalable, event-driven
+systems. Experienced in growing and leading engineering teams in varying
+sectors globally, from investment banking to public health. Recently delivered
+a fully serverless Open Banking implementation into production in 6 months.
 
 **Thanks** for stopping by!
