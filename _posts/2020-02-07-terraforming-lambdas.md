@@ -6,7 +6,7 @@ date: 2020-02-07
 
 When provisioning a Lambda function with Terraform, one gotcha to remember is that Terraform expects the deployment package to exist before it can create the function itself. Put another way, the _infrastructure_ code depends on the _application_ code.
 
-One way handling this is to manage both the function logic and its provisioning in Terraform using a [local file deployment package](https://www.terraform.io/docs/providers/aws/r/lambda_function.html#specifying-the-deployment-package):
+One way of handling this is to manage both the function logic and its provisioning in Terraform using a [local file deployment package](https://www.terraform.io/docs/providers/aws/r/lambda_function.html#specifying-the-deployment-package):
 
 [![Terraform managing application code][tfappth]][tfapp]
 
