@@ -150,7 +150,7 @@ In the same manner as input event validation, environment variables can be valid
 
 ```js
 const requiredEnvs = ['FOO']
-const missingEnvs = requiredEnvs.filter(requiredEnv => !process.env.requiredEnv)
+const missingEnvs = requiredEnvs.filter(requiredEnv => !process.env[requiredEnv])
 if (missingEnvs.length) {
   throw new Error(`missing environment variables ${missingEnvs}`)
 }
@@ -221,7 +221,7 @@ module.exports = ({ handler, requiredEnvs = [], eventSchema = {} }) => (
   }
 
   const missingEnvs = requiredEnvs.filter(
-    requiredEnv => !process.env.requiredEnv
+    requiredEnv => !process.env[requiredEnv]
   )
 
   if (missingEnvs.length) {
