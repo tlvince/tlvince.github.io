@@ -29,12 +29,14 @@ social:
 
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-relative-links
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-relative-links
 
 whitelist:
   - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-relative-links
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-relative-links
