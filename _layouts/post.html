@@ -2,14 +2,12 @@
 layout: default
 ---
 
-<article>
-  <header>
-    <h1>{{ page.title | escape }}</h1>
-    <small>
-      <time datetime="{{ page.date | date_to_xmlschema }}">{{
-        page.date | date_to_long_string
-      }}</time>
-    </small>
-  </header>
-  {{ content }}
-</article>
+<header>
+  <h1>{{ page.title | escape }}</h1>
+  <small>
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{
+      page.date | date_to_long_string
+    }}</time>
+  </small>
+</header>
+{{ content }}
