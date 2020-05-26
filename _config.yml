@@ -4,6 +4,10 @@ url: 'https://tlvince.com'
 safe: true
 permalink: ':title'
 
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+
 defaults:
   - scope:
       path: ''
