@@ -10,11 +10,11 @@ If you'd like to contact me, you can always email me on: <mailto:hello@tlvince.c
 
 You may also find me on:
 
+- [GitHub][] ([ask me anything][ama]!)
+- [Stack Exchange][] ([Stack Overflow Developer Story][])
+- [LinkedIn][]
 - [Twitter][]
 - [Flickr][] (best viewed on [Fluidr][])
-- [GitHub][] ([ask me anything][ama]!)
-- [Stack Exchange][]
-- [LinkedIn][]
 - [Flattr][]
 
 If its sensitive, please contact me via [Keybase][].
@@ -28,6 +28,7 @@ I don't really use PGP encrypted email anymore, but if you like, here is my publ
 [twitter]: https://twitter.com/tlvince "tlvince's profile on Twitter"
 [github]: https://github.com/tlvince "tlvince's profile on GitHub"
 [stack exchange]: https://stackexchange.com/users/179405?tab=accounts "tlvince's profiles on Stack Exchange"
+[stack overflow developer story]: https://stackoverflow.com/story/tlvince "tlvince's Stack Overflow Developer Story"
 [tlvince.asc]: /assets/txt/tlvince.asc "tlvince's PGP public key"
 [flickr]: https://secure.flickr.com/photos/tlvince "tlvince's profile on Flickr"
 [fluidr]: http://www.fluidr.com/photos/tlvince "tlvince's profile on Fluidr"
