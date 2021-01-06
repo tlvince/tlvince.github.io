@@ -79,6 +79,8 @@ Restart `prometheus`, query on the `http_requests_total` metric name, switch to 
 [prgraph]: /assets/img/prometheus-graph-backfilled-metrics.png
 [prgraphth]: /assets/img/th/prometheus-graph-backfilled-metrics.png
 
+Note, backfilled data is subject to the server's [retention configuration](https://github.com/prometheus/prometheus/blob/v2.24.0/docs/storage.md#operational-aspects), both size and time. Set these to values that make sense for your data.
+
 ## Usecases
 
 Why's backfilling useful? Some ideas:
