@@ -8,7 +8,7 @@ new:
 		-e "s/\&/and/g" \
 		-e "s/\s\+/-/g" \
 		-e "s/[^a-z0-9-]//g"); \
-	out="_posts/$$(date +%F)-$$url.md"; \
+	out="_drafts/$$url.md"; \
 	echo "---" >> "$$out"; \
 	echo "title: $$title" >> "$$out"; \
 	echo "date: $$(date +'%F %T %z')" >> "$$out"; \
